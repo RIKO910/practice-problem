@@ -9,6 +9,7 @@ class Solution {
      * @param  Integer $val
      * @return Integer
      */
+
     function removeElement(&$nums, $val) {
         $n = count($nums);
         for ($i = 0; $i < $n; $i++) {
