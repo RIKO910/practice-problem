@@ -6,6 +6,7 @@ class Solution {
      * @param Integer[] $digits
      * @return Integer[]
      */
+
     function plusOne($digits) {
         $n = count($digits);
         $result = 0;
