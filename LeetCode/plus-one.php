@@ -26,7 +26,7 @@ class Solution {
 
         }
         $explode = $result+1;
-        $arr  = array_map('intval', str_split($explode));
+        $arr     = array_map('intval', str_split($explode));
         return $arr;
     }
 }
