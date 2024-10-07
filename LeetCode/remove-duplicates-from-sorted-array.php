@@ -6,7 +6,7 @@ class Solution {
 * @return Integer
 */
 function removeDuplicates(&$nums) {
-$n = count($nums);
+$n          = count($nums);
 $uniqueNums = [];
 
 for ($i = 0; $i < $n; $i++) {
