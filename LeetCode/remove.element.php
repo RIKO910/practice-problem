@@ -1,10 +1,5 @@
 <?php
-
-
-
 class Solution {
-
-
 
     /**
      * @param  Integer[] $nums
@@ -23,6 +18,4 @@ class Solution {
         }
         return count($nums);
     }
-
-
 }
