@@ -1,1 +1,10 @@
-.idea/
+.DS_Store
+node_modules
+package-lock.json
+vendor
+.husky
+assets
+lib
+composer.lock
+README.md
+
