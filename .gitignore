@@ -7,4 +7,5 @@ assets
 lib
 composer.lock
 README.md
+.idea
 
