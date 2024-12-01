@@ -7,6 +7,7 @@ class Solution {
      * @param String $needle
      * @return Integer
      */
+    
     function strStr($haystack, $needle) {
         $n = strlen($haystack);
         $m = strlen($needle);
