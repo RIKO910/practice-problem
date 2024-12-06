@@ -18,4 +18,5 @@ $uniqueNums[] = $nums[$i];
 $nums = $uniqueNums; // Assign the unique array back to the original array.
 return count($nums); // Return the number of unique elements.
 }
+
 }
