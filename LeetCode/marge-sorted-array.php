@@ -9,6 +9,7 @@ class Solution {
      */
 
     function merge(&$nums1, $m, $nums2, $n) {
+
         while (count($nums1) > $m) {
             array_pop($nums1);
         }
