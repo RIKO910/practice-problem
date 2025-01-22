@@ -18,5 +18,6 @@ class Solution {
         }
         asort($nums1);
         return $nums1;
+
     }
 }
