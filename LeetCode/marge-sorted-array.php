@@ -16,6 +16,7 @@ class Solution {
         for ($i = 0; $i < $n; $i++) {
             array_push($nums1, $nums2[$i]);
         }
+
         asort($nums1);
         return $nums1;
 
