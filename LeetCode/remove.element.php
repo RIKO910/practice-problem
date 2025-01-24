@@ -16,6 +16,7 @@ class Solution {
                 $n--;
             }
         }
+
         return count($nums);
     }
 }
