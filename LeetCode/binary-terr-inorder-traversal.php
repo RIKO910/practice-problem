@@ -14,6 +14,7 @@ class Solution {
         if ($node === null) {
             return;
         }
+
         $this->traverse($node->left, $result);
         $result[] = $node->val;
         $this->traverse($node->right, $result);
