@@ -18,5 +18,6 @@ class Solution {
         $this->traverse($node->left, $result);
         $result[] = $node->val;
         $this->traverse($node->right, $result);
+
     }
 }
