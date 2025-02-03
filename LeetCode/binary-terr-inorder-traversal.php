@@ -19,5 +19,6 @@ class Solution {
         $result[] = $node->val;
         $this->traverse($node->right, $result);
 
+
     }
 }
