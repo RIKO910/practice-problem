@@ -7,6 +7,7 @@ class Solution {
      * @return Integer
      */
     function lengthOfLastWord($s) {
+
         // Trim any trailing and leading spaces
         $s               = trim($s);
         $last_word_start = strrpos($s, " ");
