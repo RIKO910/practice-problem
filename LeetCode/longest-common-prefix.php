@@ -30,6 +30,7 @@ class Solution {
             } else {
                 break; 
             }
+
         }
 
         return $commonPrefix; 
