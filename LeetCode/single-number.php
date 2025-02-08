@@ -7,6 +7,7 @@ class Solution {
      * @return Integer
      */
     function singleNumber($nums) {
+
         $n = count($nums);
         for($i = 0; $i < $n; $i++){
             $isSingle = true;
@@ -20,6 +21,7 @@ class Solution {
                 return $nums[$i];
             }
         }
+
         return -1;
     }
 }
