@@ -20,6 +20,7 @@ class Solution {
                 $count++;
                 $i++; // Move to next child
             }
+
             $j++; // Move to next cookie
         }
 
