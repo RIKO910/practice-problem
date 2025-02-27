@@ -13,6 +13,7 @@ class Solution {
         while (count($nums1) > $m) {
             array_pop($nums1);
         }
+
         for ($i = 0; $i < $n; $i++) {
             array_push($nums1, $nums2[$i]);
         }
