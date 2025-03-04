@@ -12,6 +12,7 @@ class Solution {
         $last_word_start = strrpos($s, " ");
 
         if ($last_word_start === false) {
+
             return strlen($s);
         }
 
