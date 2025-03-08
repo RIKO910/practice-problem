@@ -14,6 +14,7 @@ class Solution {
         if ($last_word_start === false) {
 
             return strlen($s);
+
         }
 
         $last_word = substr($s, $last_word_start + 1);
