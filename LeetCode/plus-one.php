@@ -8,7 +8,6 @@ class Solution {
      * @return Integer[]
      */
 
-
     function plusOne($digits) {
         $n = count($digits);
         $result = 0;
