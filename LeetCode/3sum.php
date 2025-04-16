@@ -15,6 +15,7 @@ class Solution {
             if ($i > 0 && $nums[$i] == $nums[$i - 1]) continue;
 
             for ($j = $i + 1; $j < $count - 1; $j++) {
+
                 if ($j > $i + 1 && $nums[$j] == $nums[$j - 1]) continue;
 
                 for ($k = $j + 1; $k < $count; $k++) {
