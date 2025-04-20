@@ -8,6 +8,7 @@ class Solution {
      */
     function threeSum($nums) {
         $count = count($nums);
+
         sort($nums);
         $result = [];
 
