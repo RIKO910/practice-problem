@@ -10,6 +10,7 @@ class Solution {
 
         $i = strlen($a) - 1;
         $j = strlen($b) - 1;
+
         $carry  = 0;
         $result = "";
 
