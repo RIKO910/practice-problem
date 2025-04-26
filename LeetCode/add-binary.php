@@ -9,6 +9,7 @@ class Solution {
     function addBinary($a, $b) {
 
         $i = strlen($a) - 1;
+
         $j = strlen($b) - 1;
 
         $carry  = 0;
