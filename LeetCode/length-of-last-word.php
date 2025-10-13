@@ -18,6 +18,8 @@ class Solution {
         }
 
         $last_word = substr($s, $last_word_start + 1);
+
         return strlen($last_word);
+
     }
 }
